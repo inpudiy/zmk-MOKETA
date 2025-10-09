@@ -1,0 +1,24 @@
+if SHIELD_MOKETA
+
+config ZMK_KEYBOARD_NAME
+    default "MOKETA"
+
+config ZMK_SPLIT
+	default n
+
+config USB_DEVICE_PRODUCT
+	default "MOKETA"
+
+config USB_DEVICE_VID
+	default "0x0000"
+
+config USB_DEVICE_PID
+	default "0xFEED"
+
+config USB_DEVICE_MANUFACTURER
+	default "inpudiy"
+
+config ZMK_CHECK_BATTERY_BEH
+    bool "Enable custom &check_bat implementation"
+
+endif
