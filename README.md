@@ -1,5 +1,3 @@
-# zmk-MOKETA
-
 ## Tip
 
   - To switch to the adjust layer, hold down the keys for layer 1 and 2 at the same time
